@@ -10,23 +10,23 @@
         android:id="@+id/bz"
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        app:curve_start="right"
-        app:curve_type="bezier"
+        app:curve_start="left"
+        app:curve_type="linear"
         app:start_color="#4f4b96"
         app:end_color="#60418b"
-        app:fill_color="@color/colorPrimaryDark" />
+       />
 
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:layout_width="100dp"
         app:civ_border_width="1dp"
-        android:layout_marginLeft="20dp"
-        android:layout_alignParentBottom="true"
         android:src="@drawable/b_pitt"
-        android:layout_centerInParent="true"
         android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="30dp"
+        android:layout_centerInParent="true"
         app:civ_border_color="#ffffff"
         android:layout_height="100dp"
-        android:visibility="gone" />
+        android:visibility="visible" />
 
 </RelativeLayout>
