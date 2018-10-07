@@ -154,7 +154,7 @@ class BezierPath : View {
             path?.lineTo(measuredWidth.toFloat(), curveEnd.toFloat())
             path?.lineTo(measuredWidth.toFloat(), 0f)
             path?.close()
-            paint?.shader = LinearGradient(0f, 0f, measuredWidth / 2f, measuredHeight / 2f, Color.BLACK, Color.RED, Shader.TileMode.MIRROR)
+            paint?.shader = LinearGradient(0f, 0f, measuredWidth / 2f, measuredHeight / 2f, startColor, endColor, Shader.TileMode.MIRROR)
 
             canvas?.drawPath(path, paint)
         }
