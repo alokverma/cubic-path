@@ -17,7 +17,7 @@ Add it in your root build.gradle at the end of repositories:
   Step 2. Add the dependency
   
 	dependencies {
-	        implementation 'com.github.alokverma:cubic-path:Tag'
+	        implementation 'com.github.alokverma:cubic-path:1.1'
 	}
   
   # How to use
@@ -39,17 +39,11 @@ Add it in your root build.gradle at the end of repositories:
   start_color and end_color is used for linear gradient
   
   you can achieve these type of view in layouts.
-  
-  
-![Linear](http://vermaalok.com/left_linear.png)
 
+<img src="http://vermaalok.com/left_linear.png" alt="Left Linear" width="200"/>
+<img src="http://vermaalok.com/cubic.png" alt="Cubic" width="200"/>
+<img src="http://vermaalok.com/bezier_left.png" alt="Bezier left" width="200"/>
+<img src="http://vermaalok.com/bezier_right.png" alt="Right Bezier" width="200"/>
 
-![Cubic](http://vermaalok.com/cubic.png)
-
-
-![Bezier left](http://vermaalok.com/bezier_left.png)
-
-
-![Right Bezier](http://vermaalok.com/bezier_right.png)
   
   
