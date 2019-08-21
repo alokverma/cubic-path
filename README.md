@@ -38,12 +38,7 @@ Add it in your root build.gradle at the end of repositories:
   
   start_color and end_color is used for linear gradient
   
-  you can achieve these type of view in layouts.
-
-<img src="http://vermaalok.com/left_linear.png" alt="Left Linear" width="200"/>
-<img src="http://vermaalok.com/cubic.png" alt="Cubic" width="200"/>
-<img src="http://vermaalok.com/bezier_left.png" alt="Bezier left" width="200"/>
-<img src="http://vermaalok.com/bezier_right.png" alt="Right Bezier" width="200"/>
+  
 
   
   
