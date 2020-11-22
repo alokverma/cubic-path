@@ -34,13 +34,13 @@ Add it in your root build.gradle at the end of repositories:
 
   you can pass two values in curve_start, one is left and other one is right.
   
-  ![Screenshot_20190821-151402](https://user-images.githubusercontent.com/7018540/63820221-0341c580-c966-11e9-88b0-bc472acb9549.jpg)
-  
-![Screenshot_20190821-151503](https://user-images.githubusercontent.com/7018540/63820222-0341c580-c966-11e9-83f1-17b3d49b7e49.jpg)
-
-![Screenshot_20190821-151535](https://user-images.githubusercontent.com/7018540/63820223-03da5c00-c966-11e9-84d1-14a785bb33b2.jpg)
-  
-  curve_type = "linear" || "bezier" || "cubic"
+  <p align="center">
+  <img src="https://user-images.githubusercontent.com/7018540/63820221-0341c580-c966-11e9-88b0-bc472acb9549.jpg" width="350" >
+	 <img src="https://user-images.githubusercontent.com/7018540/63820222-0341c580-c966-11e9-83f1-17b3d49b7e49.jpg" width="350" >
+	 <img src="https://user-images.githubusercontent.com/7018540/63820223-03da5c00-c966-11e9-84d1-14a785bb33b2.jpg" width="350" >
+  </p>
+ 
+ curve_type = "linear" || "bezier" || "cubic"
   
   start_color and end_color is used for linear gradient
   
